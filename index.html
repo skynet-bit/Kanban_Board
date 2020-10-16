@@ -297,6 +297,13 @@
         display: none;
     }
     
+    .Skynet_Kanban {
+        color: lightblue;
+        background-color: white;
+        border: 2px solid grey;
+        border-radius: 5px;
+    }
+    
     .dd-item {
         display: block;
         margin: 5px 0;
@@ -395,8 +402,8 @@
             this.MaterialProgress.setProgress(44);
         });
     </script>
-    <div class="kanban__title">
-        <h1><i class="material-icons">check</i> To do list</h1>
+    <div class="Skynet_Kanban">
+        <h1>Skynet-bit</h1>
     </div>
     <div class="dd">
 
@@ -409,7 +416,8 @@
                 <div class="text" contenteditable="true">Modify UI of Login page
                 </div>
                 <div class="actions">
-                    <i class="material-icons" id="color">devices_other</i></div>
+                    <i class="material-icons" id="color">devices_other</i>
+                </div>
             </li>
 
 
@@ -417,15 +425,17 @@
                 <h3 class="title dd-handle"><i class=" material-icons ">filter_none</i>Sp:2564</h3>
                 <div class="text" contenteditable="true">Resize components in review page to fit the alignment</div>
                 <div class="actions">
-                    <i class="material-icons">devices</i></div>
+                    <i class="material-icons">devices</i>
+                </div>
 
             </li>
 
             <li class="dd-item" data-id="3">
-                <h3 class="title dd-handle"><i class=" material-icons ">filter_none</i>UX design</h3>
-                <div class="text" contenteditable="true">Paul Rand once said, “The public is more familiar with bad fucking design than good design. It is, in effect, conditioned to prefer bad design,</div>
+                <h3 class="title dd-handle"><i class=" material-icons ">filter_none</i>DS:2314</h3>
+                <div class="text" contenteditable="true">Recheck Api calls</div>
                 <div class="actions">
-                    <i class="material-icons">airplay</i></div>
+                    <i class="material-icons">airplay</i>
+                </div>
 
             </li>
             <div class="actions">
@@ -436,28 +446,29 @@
         <ol class="kanban progress">
             <h2><i class="material-icons">build</i> In progress</h2>
             <li class="dd-item" data-id="5">
-                <h3 class="title dd-handle"><i class=" material-icons ">filter_none</i> title of job</h3>
-                <div class="text" contenteditable="true">Paul Rand once said, “The public is more familiar with bad fucking design than good design. It is, in effect, conditioned to prefer bad design,</div>
+                <h3 class="title dd-handle"><i class=" material-icons ">filter_none</i>SD:1231</h3>
+                <div class="text" contenteditable="true">Add Graph data to Analytics Page</div>
                 <div class="actions">
-                    <i class="material-icons">palette</i><i class="material-icons">edit</i><i class="material-icons">insert_link</i><i class="material-icons">attach_file</i></div>
+                    <i class="material-icons">devices_other</i>
+                </div>
 
             </li>
         </ol>
         <ol class="kanban  Done">
             <h2><i class="material-icons">check_circle</i> Done</h2>
             <li class="dd-item" data-id="5">
-                <h3 class="title dd-handle"><i class=" material-icons ">filter_none</i> title of job</h3>
-                <div class="text" contenteditable="true">Paul Rand once said, “The public is more familiar with bad fucking design than good design. It is, in effect, conditioned to prefer bad design,</div>
+                <h3 class="title dd-handle"><i class=" material-icons ">filter_none</i>SP:2634</h3>
+                <div class="text" contenteditable="true">Add Google sign up in the registration page</div>
                 <div class="actions">
-                    <i class="material-icons">palette</i><i class="material-icons">edit</i><i class="material-icons">insert_link</i><i class="material-icons">attach_file</i></div>
+                    <i class="material-icons">airplay</i></div>
 
             </li>
             </li>
             <li class="dd-item" data-id="2">
-                <h3 class="title dd-handle"><i class=" material-icons ">filter_none</i> title of job</h3>
-                <div class="text" contenteditable="true">Paul Rand once said, “The public is more familiar with bad fucking design than good design. It is, in effect, conditioned to prefer bad design,</div>
+                <h3 class="title dd-handle"><i class=" material-icons ">filter_none</i> DS:1333</h3>
+                <div class="text" contenteditable="true">Create new DB for automation testing</div>
                 <div class="actions">
-                    <i class="material-icons">palette</i><i class="material-icons">edit</i><i class="material-icons">insert_link</i><i class="material-icons">attach_file</i></div>
+                    <i class="material-icons">devices</i></div>
 
             </li>
             <div class="actions">
@@ -467,10 +478,10 @@
         <ol class="kanban Gone">
             <h2><i class="material-icons">delete</i> Gone</h2>
             <li class="dd-item" data-id="5">
-                <h3 class="title dd-handle"><i class=" material-icons ">filter_none</i> title of job</h3>
-                <div class="text" contenteditable="true">Paul Rand once said, “The public is more familiar with bad fucking design than good design. It is, in effect, conditioned to prefer bad design,</div>
+                <h3 class="title dd-handle"><i class=" material-icons ">filter_none</i> SD:1347</h3>
+                <div class="text" contenteditable="true">Encrypt the login credentials in SHA256 key</div>
                 <div class="actions">
-                    <i class="material-icons">palette</i><i class="material-icons">edit</i><i class="material-icons">insert_link</i><i class="material-icons">attach_file</i></div>
+                    <i class="material-icons">devices</i></div>
 
             </li>
             <div class="actions">
@@ -479,10 +490,11 @@
         </ol>
 
     </div>
-    <menu class="kanban"><button><i class="material-icons">settings</i></button> <button><i class="material-icons">chevron_left</i></button>
+    <menu class="kanban">
         <button class="viewkanban"><i class="material-icons ">view_column</i></button>
         <button class="viewlist"><i class="material-icons">view_list</i></button>
-        <button><i class="material-icons">playlist_add</i> Add new Column</button></menu>
+
+    </menu>
 
     <script>
         ;
